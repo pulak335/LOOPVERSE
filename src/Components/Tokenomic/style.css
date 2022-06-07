@@ -1,0 +1,73 @@
+.tokenomic {
+  background-color: black;
+  min-height: 100vh;
+}
+.contentrokenomic {
+  width: 85%;
+}
+.imagegroup {
+  margin-top: 200px;
+  position: relative;
+}
+.imgBox {
+  position: absolute;
+  top: -120px;
+  left: 123px;
+  z-index: 1;
+}
+.imgLayer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.titlediv {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background-image: url(../../assets/color_game_1619183056581.gif);
+  background-position: left;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+.title {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 80px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 0px 4px rgba(0, 234, 249, 0.5);
+}
+.tagAbout {
+}
+.tagTokenomic {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* angular */
+
+  background: conic-gradient(
+    from 180deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-top: 100px;
+  text-align: end;
+  margin-bottom: 50px;
+}

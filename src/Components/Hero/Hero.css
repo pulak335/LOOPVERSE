@@ -1,0 +1,101 @@
+.Hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%),
+    url("../../assets/TestyDisloyalChinchilla-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.content {
+  margin: 300px 0px;
+}
+.title1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 80px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  background: linear-gradient(278.03deg, #077ddf 42.2%, #00e969 65.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.title2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+}
+.pera {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.herobuton {
+  text-align: center;
+}
+.herobuton .buybtn {
+  background: conic-gradient(
+    from 180deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  padding: 16px 37px;
+  border-radius: 3px;
+  border: none;
+}
+.herobuton .whitebtn {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+  background-color: transparent;
+
+  color: #ffffff;
+  padding: 16px 37px;
+  border-radius: 3px;
+  padding: 14px 50px;
+
+  border-color: #b47428;
+}

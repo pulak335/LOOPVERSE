@@ -1,0 +1,82 @@
+.About {
+  background-color: #000000;
+}
+.tag {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* angular */
+
+  background: conic-gradient(
+    from 180deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-top: 100px;
+}
+.main-about {
+  margin-top: 160px;
+}
+.contentAbout {
+  width: 72%;
+  margin: 0 auto;
+}
+.aboutimg {
+  height: 648px;
+  width: 666px;
+  background: url("../../assets/DGQs.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.About .title1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 80px;
+
+  background: conic-gradient(
+    from 180deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-align: start;
+  width: 60%;
+}
+
+.About .pera {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+  /* or 160% */
+
+  text-align: justify;
+
+  color: #ffffff;
+}

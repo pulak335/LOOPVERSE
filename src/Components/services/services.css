@@ -1,0 +1,98 @@
+.services {
+  background-color: #000000;
+}
+.services .tagtitle {
+  text-align: end;
+  color: white;
+  padding-top: 100px;
+}
+.services .tagtitle2 {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height */
+
+  text-align: end;
+  color: #ffffff;
+}
+.services .tag {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* angular */
+
+  background: conic-gradient(
+    from 180deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-top: 100px;
+  text-align: end;
+}
+.services .main-about {
+  margin-top: 160px;
+}
+.services .contentAbout {
+  width: 72%;
+  margin: 0 auto;
+}
+.services .aboutimg {
+  height: 648px;
+  width: 100%;
+  background: url("../../assets/Cgif.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.services .title1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 80px;
+
+  background: conic-gradient(
+    from 180deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-align: end;
+}
+
+.services .pera {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+  /* or 160% */
+
+  text-align: justify;
+
+  color: #ffffff;
+}

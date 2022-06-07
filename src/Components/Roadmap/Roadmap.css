@@ -1,0 +1,240 @@
+/* =====road map section start here===== */
+.road__map__section {
+  background-color: #000;
+}
+.road__map__inner .title {
+  position: relative;
+}
+.containerRoad {
+  width: 85%;
+}
+.road__map__inner .title h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #fff1e9;
+  text-shadow: 0px 0px 4px #ffef5c;
+  position: relative;
+}
+
+.road__map__inner .title p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fcaa51;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.road__map__inner .title p span {
+  color: #fff1e9;
+}
+/* ---timeline--- */
+
+ul.timeline li.event h1 {
+  display: none;
+}
+
+h1 {
+  /* font-family: 'Oswald', sans-serif; */
+  letter-spacing: 1.5px;
+  color: white;
+  font-weight: 100;
+  font-size: 2.4em;
+}
+#content {
+  margin-top: 50px;
+  text-align: center;
+}
+.timeline {
+  border-left: 4px solid #73461d;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 50px auto 0;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  /* max-width: 70%; */
+}
+.timeline .event {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  margin-bottom: 50px;
+  position: relative;
+  align-items: center;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(
+      130.24deg,
+      rgba(244, 189, 72, 0.1) 7.67%,
+      #e38800 54.04%,
+      rgba(244, 189, 72, 0.1) 93.82%
+    )
+    1;
+}
+
+li.event .event__ul {
+  display: flex;
+}
+
+li.event ul li {
+  margin-bottom: 20px;
+}
+
+li.event ul li:last-child {
+  margin-bottom: 0;
+}
+
+.timeline .event:last-of-type {
+  margin-bottom: 0;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .event:before {
+  left: -44%;
+  top: 43%;
+  content: "PHASE 1";
+  font-size: 40px;
+  font-weight: 600;
+  min-width: 120px;
+}
+.timeline .event:nth-child(2):before {
+  content: "PHASE 2";
+}
+.timeline .event:nth-child(3):before {
+  content: "PHASE 3";
+}
+.timeline .event:nth-child(4):before {
+  content: "PHASE 4";
+}
+.timeline .event:nth-child(5):before {
+  content: "PHASE 5";
+}
+.timeline .event:after {
+  /* box-shadow: 0 0 0 1px #4298c3; */
+  left: -99.85px;
+  /* background: #313534; */
+  height: 0px;
+  width: 90px;
+  content: "";
+  top: 50%;
+  height: 5px;
+  background: conic-gradient(
+    from 180deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+}
+/* ---timeline--- */
+
+@media screen and (max-width: 1799px) {
+  .timeline .event:before
+       /* .timeline .event:after */ {
+    display: none;
+  }
+
+  ul.timeline li.event h1 {
+    display: block;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  li.event .event__ul {
+    flex-wrap: wrap;
+  }
+
+  li.event .event__ul ul {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  li.event .event__ul ul:last-child {
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+
+  li.event .event__ul ul:first-child {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  ul.timeline li.event h1 {
+    font-size: 27px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .road__map__inner .title h1 {
+    font-size: 48px;
+  }
+
+  li.event .event__ul ul,
+  li.event ul li {
+    margin-bottom: 13px;
+  }
+  .timeline {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timeline .event {
+    margin-bottom: 30px;
+  }
+
+  .road__map__inner .title h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .timeline .event:after {
+    left: -52.85px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  ul.timeline li.event h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .timeline {
+    padding: 0 0 0 30px;
+  }
+
+  .timeline .event:after {
+    left: -32.85px;
+    width: 31px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .road__map__inner .title h1 {
+    font-size: 32px;
+  }
+}
+
+/* =====road map section end here===== */

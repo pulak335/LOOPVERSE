@@ -1,0 +1,106 @@
+/* =====about us section start here===== */
+.about__us__inner p.text-left {
+  color: #460286;
+}
+
+.play__earn .title h1 {
+  background: conic-gradient(
+    from 145deg at 48.5% 50%,
+    #fcc255 -46.16deg,
+    #4b2a16 130.63deg,
+    #fab95e 133.38deg,
+    #b47428 204.46deg,
+    #533018 311.43deg,
+    #fcc255 313.84deg,
+    #4b2a16 490.63deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 4px rgb(227 136 0 / 31%);
+  font-size: 82px;
+  line-height: 125px;
+  font-weight: 900;
+}
+
+.play__earn .title h1 a {
+  text-decoration: none;
+}
+
+.play__earn .title p,
+.play__earn .title span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.play__earn .title p {
+  margin: 64px 0 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .about__us__quad {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .about__us__quad .service__quad:first-child {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .play__earn .title h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__us__quad {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about__us__inner p.text-left,
+  .service__inner p.text-right,
+  .road__map__inner .title p {
+    display: none;
+  }
+
+  .about__us__quad .service__quad:first-child {
+    margin: 0 0 20px 0;
+  }
+
+  .service__quad p {
+    margin-bottom: 0;
+  }
+
+  .play__earn .title h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .play__earn .title h1 {
+    font-size: 29px;
+  }
+
+  .services__section {
+    padding: 64px 0 78px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .service__quad p {
+    font-size: 15px;
+  }
+
+  .play__earn .title p,
+  .play__earn .title span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+/* =====about us section end here====== */
